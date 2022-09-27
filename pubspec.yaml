@@ -1,0 +1,32 @@
+name: recipesapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.0.3
+  liquid_swipe: 3.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/svg/
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SFProText-Regular.otf
+        - asset: assets/fonts/SFProText-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SFProText-Semibold.otf
+          weight: 600
